@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/sid/Desktop/lab3_xuefeng_wei/ex2/main.c
+stdio.h
+-
+unistd.h
+-
+string.h
+-
+sys/types.h
+-
+sys/wait.h
+-
+stdlib.h
+-
+

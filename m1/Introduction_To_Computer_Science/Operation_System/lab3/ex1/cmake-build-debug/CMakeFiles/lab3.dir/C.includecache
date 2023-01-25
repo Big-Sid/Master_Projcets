@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/sid/Downloads/lab3/lab3.c
+stdio.h
+-
+unistd.h
+-
+string.h
+-
+sys/types.h
+-
+sys/wait.h
+-
+stdlib.h
+-
+
